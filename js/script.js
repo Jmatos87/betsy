@@ -110,7 +110,7 @@ var EtsyRouter = Backbone.Router.extend ({
 routes: {														
 		"scroll": "handleEtsyScrollData",				
 		"detail/:id": "handleEtsyDetailData",															
-		"*default": "handlEtsyScrollData"
+		"*default": "handleEtsyScrollData"
 	},
 
 
