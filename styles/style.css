@@ -3,19 +3,22 @@ body{
 	box-sizing: border-box;
 }
 
-img{
-	width:100%;
-	height:100%;
-}
-
 input{
-	margin-left:30px;
+	display:block;
+	margin: 50px 45% 50px;
 }
 h1{
-	font-size: 15px;
-	max-width:60ch;
+	font-size: 13px;
+    max-width: 65ch;
+    text-align: center;
 }
 
+.bottom{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 .categories{
 	font-size:10px;
 	display:inline-block;
@@ -26,27 +29,38 @@ h1{
 .daddyDiv{
 	display:inline-block;
 	width: 25%;
-	height: 375px;
-	margin-left:20px;
+	height: 300px;
+	margin-left: 6%;
 	margin-top:20px;
+	margin-bottom: 20px;
 	vertical-align:top;
 	border: 2px solid red;
+	position:relative;
 
 
 }
 .imgDiv{
+	height:150px;
+	width:81%;
 
 }
 .miniDescription{
-	 text-overflow: ellipsis;
+	 vertical-align:bottom;
 
 }
 .listingTitle{
 	font-size:15px;
 }
+.scrollImg{
+	height:100%;
+	width:100%;
+	padding-top: 5px;
+    padding-left: 23px;
+}
 .sellerName{
 	font-size:12px;
 	display:inline-block;
+	vertical-align:;
 }
 .money{
 	font-size:15px;
@@ -54,7 +68,12 @@ h1{
     color: green;
     float: right;
 }
+#bigImg{
+	height:209px;
+	width:35%;
+	display: inline-block;
 
+}
 #categoryBar{
 	width:100%;
 	height:50px;
@@ -64,6 +83,22 @@ h1{
 #container{
 	width:100%;
 	
+}
+#listingContainer{
+	margin-top:50px;
+	margin-bottom:50px;
+	border: 2px solid orange;
+	position:relative;
+}
+#listingDescription{
+	width:60%;
+	display:inline-block;
+	vertical-align: top;
+}
+#listingImage{
+	padding-top: 50px;
+    padding-left: 20px;
+    width: 70%;
 }
 #logo{
 	font-size: 30px;
@@ -75,12 +110,37 @@ h1{
 #prettyImage{
 	width:100%;
 	height:400px;
-	background-color:green;
 }
 #searchBar{
 	width:100%;
 	height:100px;
 	background-color: white;
 	font-size: 20px;
+}
+#shop{
+ font-size:15px;
+ color:red;
+ padding-left: 5%;
+}
+#title{
+	font-size:20px;
+	color:navy;
+
+}
+#description{
+	text-align: center;
+    padding-left: 9%;
+
+}
+#money{
+display:inline-block;
+color:limegreen;
+}
+#quantity{
+display:inline-block;
+position:absolute;
+bottom:0;
+right:10%;
+color:purple;
 
 }
