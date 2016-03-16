@@ -1,6 +1,10 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 body{
 	font-size:0;
-	box-sizing: border-box;
+	background:ivory;
 }
 
 input{
@@ -11,6 +15,9 @@ h1{
 	font-size: 13px;
     max-width: 65ch;
     text-align: center;
+}
+li{
+	color:white;
 }
 
 .bottom{
@@ -24,7 +31,7 @@ h1{
 	display:inline-block;
 	text-decoration:none;
 	line-height:50px;
-	margin-right: 12px;
+	margin-right: 6%;
 }
 .daddyDiv{
 	display:inline-block;
@@ -68,12 +75,13 @@ h1{
     color: green;
     float: right;
 }
-#bigImg{
-	height:209px;
-	width:35%;
-	display: inline-block;
-
+#betsy{
+	width: 220px;
+    height: 100px;
 }
+
+
+
 #categoryBar{
 	width:100%;
 	height:50px;
@@ -82,23 +90,43 @@ h1{
 }
 #container{
 	width:100%;
+	background:ivory;
 	
 }
 #listingContainer{
-	margin-top:50px;
-	margin-bottom:50px;
-	border: 2px solid orange;
-	position:relative;
+	margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid lime;
+    position: relative;
+    width: 100%;
+    background: palegoldenrod;
+
 }
+#listingContainer > *{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+#bigImg{
+	width:35%;
+	
+
+}
+#right{
+
+	width: 65%;
+
+}
+
 #listingDescription{
-	width:60%;
-	display:inline-block;
 	vertical-align: top;
+	width: 98%;
 }
 #listingImage{
 	padding-top: 50px;
     padding-left: 20px;
     width: 70%;
+    padding-bottom: 50px;
 }
 #logo{
 	font-size: 30px;
@@ -114,7 +142,7 @@ h1{
 #searchBar{
 	width:100%;
 	height:100px;
-	background-color: white;
+	background-color: ivory;
 	font-size: 20px;
 }
 #shop{
@@ -135,12 +163,20 @@ h1{
 #money{
 display:inline-block;
 color:limegreen;
+position:absolute;
+bottom:0;
+left:0;
 }
 #quantity{
 display:inline-block;
+color:purple;
 position:absolute;
 bottom:0;
-right:10%;
-color:purple;
+right:0;
 
+}
+#listingPosition{
+position:absolute;
+position:relative;
+bottom:0;
 }
