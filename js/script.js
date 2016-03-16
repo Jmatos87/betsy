@@ -86,7 +86,7 @@ var EtsyDetailView = Backbone.View.extend ({
 		var objListing = this.model.get('results')[0]
 		var htmlString = ''
 		var img = objListing.Images[0].url_fullxfull
-				htmlString += '<div id="listingContainer"><div id="bigImg"><img src="' + img +'" id="listingImage"><h1>Click on the image to go back!</h1>'
+				htmlString += '<div id="listingContainer"><div id="bigImg"><h1>Click on the image to go back!</h1><img src="' + img +'" id="listingImage">'
 				htmlString += '</div><div id="right"><div id="listingDescription"><h1 id="title">'+ objListing.title +'</h1>'
 				htmlString += '<h1 id="shop"> By: ' + objListing.Shop.shop_name +'</h1>'+'<h1 id="description">'+ objListing.description +'</h1>'
 				htmlString += '<div id="listingPosition"><h1 id="money">'+ objListing.price + ' ' + objListing.currency_code +'</h1>'
